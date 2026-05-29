@@ -20,8 +20,9 @@ export default function Footer() {
       { label: 'Custom Solutions', href: '#contact' },
     ],
     Contact: [
-      { label: '(210) 493-8277', href: 'tel:+12104938277', icon: FaPhone },
-      { label: 'info@triversebookmarketing.com', href: 'mailto:info@triversebookmarketing.com', icon: FaEnvelope },
+      { label: '+1 (650) 293-0132', href: 'tel:+16502930132', icon: FaPhone },
+      { label: 'info@publishinghubusa.com', href: 'mailto:info@publishinghubusa.com', icon: FaEnvelope },
+      { label: 'Office Hours: 9 AM - 6 PM', href: '#', icon: undefined },
     ],
   };
 
@@ -42,9 +43,9 @@ export default function Footer() {
       <div className="container">
         <div style={{ display: 'grid', gridTemplateColumns: '1.5fr repeat(3, 1fr)', gap: '60px', marginBottom: '60px' }}>
           <div>
-            <Image src="/icon-nav.png" alt="Triverse" width={80} height={44} style={{ objectFit: 'contain', marginBottom: '20px' }} />
+            <Image src="/publishing-hub.png" alt="Publishing Hub USA" width={170} height={96} style={{ objectFit: 'contain', marginBottom: '10px' }} />
             <p style={{ color: 'var(--footer-foreground-muted)', fontSize: '0.9rem', lineHeight: 1.8, marginBottom: '28px', maxWidth: '280px', transition: 'color 0.3s ease' }}>
-              Professional book marketing strategies to turn your manuscript into a bestseller and build your author brand.
+              Professional book marketing strategies to turn your manuscript into a bestseller and build your author brand. Office Hours: 9 AM - 6 PM
             </p>
             <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
               {socials.map(({ label, icon: Icon, href }) => (
@@ -111,7 +112,7 @@ export default function Footer() {
           transition: 'border-color 0.3s ease',
         }}>
           <p style={{ color: 'var(--footer-foreground-muted)', fontSize: '0.85rem', transition: 'color 0.3s ease' }}>
-            © {currentYear} Triverse Book Marketing. All rights reserved.
+            © {currentYear} Publishing Hub USA. All rights reserved.
           </p>
           <div style={{ display: 'flex', gap: '24px' }}>
             {['Privacy Policy', 'Terms of Service'].map(link => (
@@ -128,9 +129,12 @@ export default function Footer() {
       </div>
 
       <style>{`
-        [data-theme="light"] footer a[aria-label] svg,
-        [data-theme="light"] footer ul li a svg {
-          color: #111827 !important;
+        footer a[aria-label] svg,
+        footer ul li a svg {
+          color: var(--gold) !important;
+        }
+        footer img[alt="Publishing Hub USA"] {
+          filter: brightness(0) invert(1);
         }
         @media (max-width: 1024px) {
           footer > div.container > div:first-child { gap: 40px !important; }

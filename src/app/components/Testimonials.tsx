@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 const testimonials = [
   {
-    quote: 'Working with Triverse Book Marketing was a great decision. Their marketing strategies helped increase my book visibility and brought in real readers. My sales tripled within the first month.',
+    quote: 'Working with Publishing Hub USA was a great decision. Their marketing strategies helped increase my book visibility and brought in real readers. My sales tripled within the first month.',
     name: 'James Walker',
     role: 'Mystery Author',
     initials: 'JW',
@@ -19,7 +19,7 @@ const testimonials = [
     stars: 5,
   },
   {
-    quote: 'Triverse Book Marketing knows how to position a book in front of the right audience. Their campaign helped my book gain the attention it truly deserved. Highly recommended!',
+    quote: 'Publishing Hub USA knows how to position a book in front of the right audience. Their campaign helped my book gain the attention it truly deserved. Highly recommended!',
     name: 'David Richardson',
     role: 'Fiction Author',
     initials: 'DR',

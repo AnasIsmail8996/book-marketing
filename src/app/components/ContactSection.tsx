@@ -27,8 +27,9 @@ export default function ContactSection() {
 
             <div className="flex flex-col gap-5 items-center md:items-start">
               {[
-                { icon: '📞', label: 'Phone', value: '(210) 493-8277', href: 'tel:+12104938277' },
-                { icon: '📧', label: 'Email', value: 'info@triversebookmarketing.com', href: 'mailto:info@triversebookmarketing.com' },
+                { icon: '📞', label: 'Phone', value: '+1 (650) 293-0132', href: 'tel:+16502930132' },
+                { icon: '📧', label: 'Email', value: 'info@publishinghubusa.com', href: 'mailto:info@publishinghubusa.com' },
+                { icon: '🕐', label: 'Office Hours', value: '9 AM - 6 PM', href: '#' },
               ].map(item => (
                 <a
                   key={item.label}

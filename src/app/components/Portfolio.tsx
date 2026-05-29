@@ -70,7 +70,7 @@ export default function Portfolio() {
           Get Started Today
           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"><path fillRule="evenodd" fill="currentColor" d="M0.499,6.498 L12.85,6.498 L7.585,1.998 L8.999,0.584 L15.913,7.499 L8.999,14.413 L7.585,12.998 L12.85,8.498 L0.499,8.498 L0.499,6.498 Z"/></svg>
         </a>
-        <a href="tel:+12104938277" className="btn-ghost">📞 Call Now</a>
+        <a href="tel:+16502930132" className="btn-ghost">📞 Call Now</a>
       </div>
 
       <style>{`

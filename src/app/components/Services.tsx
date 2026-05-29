@@ -54,7 +54,7 @@ export default function Services() {
         <div style={{ textAlign: 'center', marginBottom: '64px' }}>
           <div className="section-label">What We Do</div>
           <h2 className="section-heading" style={{ marginBottom: '20px' }}>
-            <span className="accent">Triverse</span> Book Marketing
+            Publishing Hub <span className="accent">USA</span>
           </h2>
           <p style={{ fontSize: '1.05rem', color: 'var(--foreground-muted)', maxWidth: '600px', margin: '0 auto', lineHeight: 1.75, transition: 'color 0.3s ease' }}>
             High-impact marketing campaigns that drive book sales, support bestseller growth, and increase author visibility across major platforms.
@@ -78,7 +78,7 @@ export default function Services() {
           <a href="#contact" className="btn-primary">Get Started Today
             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"><path fillRule="evenodd" fill="currentColor" d="M0.499,6.498 L12.85,6.498 L7.585,1.998 L8.999,0.584 L15.913,7.499 L8.999,14.413 L7.585,12.998 L12.85,8.498 L0.499,8.498 L0.499,6.498 Z"/></svg>
           </a>
-          <a href="tel:+12104938277" className="btn-ghost">📞 (210) 493-8277</a>
+          <a href="tel:+16502930132" className="btn-ghost">📞 +1 (650) 293-0132</a>
         </div>
       </div>
 

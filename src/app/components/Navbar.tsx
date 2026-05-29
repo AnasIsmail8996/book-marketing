@@ -44,8 +44,8 @@ export default function Navbar() {
             }}
           >
             <Image
-              src="/icon-nav.png"
-              alt="Triverse"
+              src="/publishing-hub.png"
+              alt="Publishing Hub USA Logo"
               width={150}
               height={40}
               className="nav-logo-img"
@@ -72,7 +72,7 @@ export default function Navbar() {
               ))}
             </ul>
             <ThemeToggle />
-            <a href="tel:+12104938277" style={{
+            <a href="tel:+16502930132" style={{
               display: 'flex', alignItems: 'center', gap: '8px',
               color: 'var(--foreground-secondary)', textDecoration: 'none',
               fontSize: '0.9rem', fontWeight: 500, transition: 'color 0.3s',
@@ -83,7 +83,7 @@ export default function Navbar() {
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 11.61 19a19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 3.09 4.18 2 2 0 0 1 5.07 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L9.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path>
               </svg>
-              (210) 493-8277
+              +1 (650) 293-0132
             </a>
             <a href="#contact" className="btn-primary" style={{ padding: '10px 22px', fontSize: '0.85rem' }}>
               Let&apos;s Consult
@@ -133,7 +133,7 @@ export default function Navbar() {
                 }}>{link.label}</a>
               </li>
             ))}
-            <li><a href="tel:+12104938277" style={{ color: 'var(--gold)', textDecoration: 'none', fontWeight: 600 }}>(210) 493-8277</a></li>
+            <li><a href="tel:+16502930132" style={{ color: 'var(--gold)', textDecoration: 'none', fontWeight: 600 }}>+1 (650) 293-0132</a></li>
             <li>
               <a href="#contact" onClick={() => setMenuOpen(false)} className="btn-primary" style={{ display: 'inline-flex' }}>
                 Let&apos;s Consult
@@ -146,9 +146,13 @@ export default function Navbar() {
    <style>{`
   /* Default Logo */
   .nav-logo-img {
-    width: 80px !important;
+    width: 140px !important;
     height: auto !important;
     transition: all 0.3s ease !important;
+  }
+
+  [data-theme="dark"] .nav-logo-img {
+    filter: brightness(0) invert(1);
   }
 
   /* Large Tablets / Small Laptops */
@@ -159,7 +163,7 @@ export default function Navbar() {
     }
 
     .nav-logo-img {
-      width: 75px !important;
+      width: 120px !important;
     }
   }
 
@@ -185,7 +189,7 @@ export default function Navbar() {
     }
 
     .nav-logo-img {
-      width: 68px !important;
+      width: 100px !important;
     }
   }
 
@@ -201,7 +205,7 @@ export default function Navbar() {
     }
 
     .nav-logo-img {
-      width: 60px !important;
+      width: 80px !important;
     }
 
     .hamburger-btn {
@@ -225,7 +229,7 @@ export default function Navbar() {
     }
 
     .nav-logo-img {
-      width: 45px !important;
+      width: 65px !important;
     }
 
     nav > div.container ~ div {
@@ -249,7 +253,7 @@ export default function Navbar() {
     }
 
     .nav-logo-img {
-      width: 35px !important;
+      width: 45px !important;
     }
 
     .hamburger-btn div span {
@@ -274,7 +278,7 @@ export default function Navbar() {
     }
 
     .nav-logo-img {
-      width: 45px !important;
+      width: 40px !important;
     }
 
     .hamburger-btn div span {

@@ -103,13 +103,13 @@ export default function WhyUs() {
             <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1.8rem', fontWeight: 700, color: 'var(--foreground)', marginBottom: '8px', transition: 'color 0.3s ease' }}>
               Ready to become a <span style={{ color: '#f59e0b' }}>bestselling author?</span>
             </h3>
-            <p style={{ color: 'var(--foreground-muted)', fontSize: '1rem', transition: 'color 0.3s ease' }}>Join 500+ authors who&apos;ve transformed their book sales with Triverse.</p>
+            <p style={{ color: 'var(--foreground-muted)', fontSize: '1rem', transition: 'color 0.3s ease' }}>Join 500+ authors who&apos;ve transformed their book sales with Publishing Hub USA.</p>
           </div>
           <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap', flexShrink: 0 }}>
             <a href="#contact" className="btn-primary">Get Free Consultation
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"><path fillRule="evenodd" fill="currentColor" d="M0.499,6.498 L12.85,6.498 L7.585,1.998 L8.999,0.584 L15.913,7.499 L8.999,14.413 L7.585,12.998 L12.85,8.498 L0.499,8.498 L0.499,6.498 Z"/></svg>
             </a>
-            <a href="tel:+12104938277" className="btn-outline">📞 Call Us</a>
+            <a href="tel:+16502930132" className="btn-outline">📞 Call Us</a>
           </div>
         </div>
       </div>

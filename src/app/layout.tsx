@@ -16,10 +16,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://triversebookmarketing.com"),
+  metadataBase: new URL("https://publishinghubusa.com"),
   title: {
-    default: "Triverse Book Marketing",
-    template: "%s | Triverse Book Marketing",
+    default: "Publishing Hub USA",
+    template: "%s | Publishing Hub USA",
   },
   description:
     "Professional book marketing strategies to increase book sales, grow your audience, and build your author brand with Amazon, SEO, social media, and publishing promotion.",
@@ -47,30 +47,30 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Triverse Book Marketing",
+    title: "Publishing Hub USA",
     description: "Turn your book into a best seller with powerful marketing.",
     type: "website",
-    url: "https://triversebookmarketing.com",
-    siteName: "Triverse Book Marketing",
+    url: "https://publishinghubusa.com/",
+    siteName: "Publishing Hub USA",
     images: [
       {
-        url: "/icon-nav.png",
+        url: "/publishing-websites-icon.png",
         width: 512,
         height: 512,
-        alt: "Triverse Book Marketing",
+        alt: " Publishing Hub USA Logo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Triverse Book Marketing",
+    title: "Publishing Hub USA",
     description: "Turn your book into a best seller with powerful marketing.",
-    images: ["/icon-nav.png"],
+    images: ["/publishing-websites-icon.png"],
   },
   icons: {
-    icon: "/icon-nav.png",
-    shortcut: "/icon-nav.png",
-    apple: "/icon-nav.png",
+    icon: "/publishing-websites-icon.png",
+    shortcut: "/publishing-websites-icon.png",
+    apple: "/publishing-websites-icon.png",
   },
 };
 
@@ -86,8 +86,8 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
-        <link rel="icon" href="/icon-nav.png" />
-        <link rel="apple-touch-icon" href="/icon-nav.png" />
+        <link rel="icon" href="/publishing-websites-icon.png" />
+        <link rel="apple-touch-icon" href="/publishing-websites-icon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <script
