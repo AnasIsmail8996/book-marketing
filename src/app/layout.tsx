@@ -16,16 +16,61 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Triverse Book Marketing – Turn Your Book Into A Best Seller",
+  metadataBase: new URL("https://triversebookmarketing.com"),
+  title: {
+    default: "Triverse Book Marketing",
+    template: "%s | Triverse Book Marketing",
+  },
   description:
-    "Professional book marketing strategies to increase book sales, grow your audience, and build your author brand. Social media, Amazon, SEO and more.",
-  keywords:
-    "book marketing, author marketing, amazon book marketing, book promotion, bestseller marketing",
+    "Professional book marketing strategies to increase book sales, grow your audience, and build your author brand with Amazon, SEO, social media, and publishing promotion.",
+  keywords: [
+    "book marketing",
+    "author marketing",
+    "amazon book marketing",
+    "book promotion",
+    "bestseller marketing",
+    "self publishing marketing",
+    "author branding",
+  ],
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
   openGraph: {
     title: "Triverse Book Marketing",
-    description: "Turn Your Book Into A Best Seller With Powerful Marketing",
+    description: "Turn your book into a best seller with powerful marketing.",
     type: "website",
     url: "https://triversebookmarketing.com",
+    siteName: "Triverse Book Marketing",
+    images: [
+      {
+        url: "/icon-nav.png",
+        width: 512,
+        height: 512,
+        alt: "Triverse Book Marketing",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Triverse Book Marketing",
+    description: "Turn your book into a best seller with powerful marketing.",
+    images: ["/icon-nav.png"],
+  },
+  icons: {
+    icon: "/icon-nav.png",
+    shortcut: "/icon-nav.png",
+    apple: "/icon-nav.png",
   },
 };
 
@@ -41,12 +86,10 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
+        <link rel="icon" href="/icon-nav.png" />
+        <link rel="apple-touch-icon" href="/icon-nav.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
         <script
           dangerouslySetInnerHTML={{
             __html: `
