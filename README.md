@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📚 Triverse Book Marketing
 
-## Getting Started
+Professional book marketing platform built with Next.js to help authors grow their audience, increase book sales, and build a strong author brand.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+* Modern Responsive UI
+* Author Marketing Landing Page
+* Portfolio Showcase
+* Testimonials Section
+* Pricing Packages
+* Contact Form Integration
+* Dark / Light Theme Support
+* Fully Mobile Responsive
+* Optimized Next.js Performance
+
+---
+
+## 🛠 Tech Stack
+
+* Next.js
+* TypeScript
+* React
+* CSS / Inline Styling
+* Vercel Deployment
+
+---
+
+## 📂 Project Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build project:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🌐 Live Demo
 
-To learn more about Next.js, take a look at the following resources:
+Add your deployed Vercel link here.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👨‍💻 Developer
 
-## Deploy on Vercel
+**Anas Ismail**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* GitHub: https://github.com/AnasIsmail8996
+* Email: [your-email@example.com](mailto:your-email@example.com)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📄 License
+
+This project is licensed for personal and commercial use.
+
+---
